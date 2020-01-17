@@ -19,7 +19,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ".:/go/src/app"
+      - ".:/app"
 
 volumes:
   postgres-data:

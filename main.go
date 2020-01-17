@@ -51,7 +51,6 @@ func main() {
 	var srv account.Service
 	{
 		repository := account.NewRepo(db, logger)
-
 		srv = account.NewService(repository, logger)
 	}
 
